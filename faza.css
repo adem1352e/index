@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&family=Rubik+Bubbles&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+#section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  #fff;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:  100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:-75px;
+
+}
+header .logo {
+    position: relative;
+    max-width: 90px;
+
+}
+#adem {
+    position: relative;
+    display: flex;
+    margin-top: -35px;
+
+}
+header ul li{
+    list-style:none;
+
+}
+header ul li a{
+    display: inline;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    position: relative;
+    max-width:650Px ;
+
+}
+h2{
+    color: #333;
+    font-size: 64px;
+    line-height: 4rem;
+    font-weight:500;
+
+
+} 
+#span{
+    color: #041f71;
+    font-size: 4rem;
+    font-weight: 900;
+
+}
+.text p{
+    color: #333;
+
+}
+.text a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #041f71;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.text a:hover{
+    transform: translateY(-px);
+    transition: 0.4s;
+}
+.content .img{
+    width: 600Px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+    transition: 1.2s;
+}
+.content .img img{
+    max-width: 340px;
+
+}
+
+
+
+
+
+.doura{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #041f71;
+    clip-path: circle(600px at right 800Px );
+}
+#adem{
+    font-size: 21px;
+
+}
+/*hatha haja ou5ra*/
+.aside{
+    border: 2px solid black;
+    margin:70px 70px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    
+
+}
+.aside p{
+    font-size: 25px;
+    padding: 25px 25px;
+    font-family: 'Indie Flower', cursive;
+}
+#frontend{
+    width: 65%;
+    align-items: center;
+    display: flex; 
+    position: relative;   
+    z-index: 1;
+    padding-top: 50px;
+    margin-left: 17%;
+    margin-bottom:100px ;
+   
+}
+#titre{
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 25px;
+    padding: 50px 0;
+    color: rgb(17, 57, 187);
+    text-shadow:  0 7px 10px rgba(0, 0, 0, 0.213);
+
+}
+#p3b{
+    
+    justify-content: space-between;
+}
+ #yah{
+    color: rgb(114, 13, 197);
+    
+}
+#yah{
+    color: rgb(28, 93, 213);
+    font-weight: 600;
+    font-family: 'Satisfy', cursive;
+
+}
+
+#liste{
+    font-size: 65px;
+    margin-left: 60Px;
+    list-style:circle;
+    color: rgb(47, 120, 255);
+    list-style:inside;
+}
+.video {
+    margin: 35px 20%;
+    border:4px solid; 
+    width: 900px;
+    height: 565px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.631)
+
+}
+#photo{ width: 50%;
+    align-items: center;
+    display: flex; 
+    position: relative;   
+    z-index: 1;
+    padding-top: 50px;
+    margin-left: 23%;
+    
+
+
+}
+
+li{
+    margin: 25px 0;
+    font-size: 30px;
+    margin: 25px 65px;
+    font-family: 'Blinker', sans-serif;
+    font-weight: 600;
+}
+.boi{
+    margin: 25px 25px;
+    font-size: 40px;
+    
+    font-family: 'Permanent Marker', cursive;
+   
+}
+.box2{
+    border: 2px solid black;
+    margin:50px 500px;
+    font-size: 35px;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: none;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Hind', sans-serif;
+
+    
+}
+strong{
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(13, 93, 197);
+}
+.navbar{
+   
+    background-color: rgb(16, 61, 119);
+}
+#p1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Indie Flower', cursive;
+}
+
+ 
+
+#sui{
+    color:rgb(23, 46, 140);
+    text-decoration: underline;
+    font-weight: 600;
+}
+#ronaldo{
+    color:rgb(0, 0, 0) ;
+    text-decoration: rgb(0, 0, 0) wavy underline;
+    font-weight:600;
+
+}
+button{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    margin-left: 50%;
+    margin-bottom: 10%;
+    width: 200px;
+    height: 75px;
+}
+.ana {
+    animation: slide 10s infinite;
+}
+@keyframes slide {
+   0% {
+        transform: translateY(-20px);
+   } 
+   50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }  
+}
+
+
+
+
+
+
+
+
+
+
